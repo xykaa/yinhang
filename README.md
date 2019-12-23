@@ -1,10 +1,5 @@
-CRMEB 基于thinkphp5的电商管理系统 [官网](http://www.crmeb.com)
-===============
-使用手册：http://help.crmeb.net
-论坛地址：http://bbs.crmeb.net
+﻿中国银行项目
 > ThinkPHP5的运行环境要求PHP7.0。
-QQ会员群：156535570
-QQ技术交流群：116279623
 
 ## 目录结构
 
