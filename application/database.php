@@ -15,11 +15,11 @@ return [
     // 服务器地址
     'hostname'        => 'localhost',
     // 数据库名
-    'database'        => 'shop_new_4_26',
+    'database'        => 'yinhang123',
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => 'root',
+    'password'        => '123',
 
     // 端口
     'hostport'        => '3306',
