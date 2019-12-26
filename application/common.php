@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: 流年 <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
+use think\Db;
 // 应用公共文件
 
 /**
@@ -107,4 +107,27 @@ function strReplace($string,$start,$end)
     $lastStr = mb_substr($string, -1, $end, 'UTF-8');//获取最后一位
     return $strlen == 2 ? $firstStr . str_repeat('*', mb_strlen($string, 'utf-8') -1) : $firstStr . str_repeat("*", $strlen - 2) . $lastStr;
 
+}
+
+/**
+ * @param $uid 用户id
+ * @param $phone 用户手机号码
+ * @param $desc 操作描述
+ * * @param $type 操作类型
+ * @return string
+ */
+function accountLog($uid, $phone, $desc = '', $type = 0)
+{
+    /* 插入帐户变动记录 */
+    $account_log = array(
+        'uid' => $uid,
+        'phone' =>$phone,
+        'change_time' => time(),
+        'desc' => $desc,
+        'action_type' => $type,
+        
+    );
+
+        $change = Db::name('user_operation_log')->add($account_log);
+        return true;   
 }

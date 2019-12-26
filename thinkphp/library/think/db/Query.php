@@ -413,7 +413,17 @@ class Query
             return $tableName;
         }
     }
-
+    /**
+     * 
+     * @access public
+     * @param array     $data 数据          
+     * @return $this->insert($data);
+     */
+    public function add($data = [])
+    {  
+       $this->insert($data);      
+       return $this->getLastInsID();
+    } 
     /**
      * 得到某个字段的值
      * @access public

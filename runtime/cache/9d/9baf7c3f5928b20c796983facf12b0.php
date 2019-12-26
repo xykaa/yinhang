@@ -1,0 +1,4 @@
+<?php
+//000000000060
+ exit();?>
+a:5:{i:0;a:4:{s:2:"id";i:72;s:4:"name";s:6:"砍价";s:3:"url";s:24:"/wap/store/cut_list.html";s:4:"icon";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/01/15/5c3dc72335ee5.png";}i:1;a:4:{s:2:"id";i:73;s:4:"name";s:6:"领券";s:3:"url";s:28:"/wap/store/issue_coupon.html";s:4:"icon";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/01/15/5c3dc7146add5.png";}i:2;a:4:{s:2:"id";i:74;s:4:"name";s:6:"拼团";s:3:"url";s:27:"/wap/store/combination.html";s:4:"icon";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/01/15/5c3dc73feecaf.png";}i:3;a:4:{s:2:"id";i:108;s:4:"name";s:6:"秒杀";s:3:"url";s:29:"/wap/store/seckill_index.html";s:4:"icon";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/01/15/5c3dc730dead2.png";}i:4;a:4:{s:2:"id";i:109;s:4:"name";s:6:"签到";s:3:"url";s:20:"/wap/my/sign_in.html";s:4:"icon";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/01/15/5c3dc74c1bd3f.png";}}

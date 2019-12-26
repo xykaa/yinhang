@@ -57,6 +57,7 @@ class Login extends Controller
         $userInfo['token'] = TokenService::getToken($userInfo['uid'],$userInfo['openId']);
         if($userInfo['token']===false) return JsonService::fail('获取用户访问token失败!');
         $userInfo['status'] = WechatUser::isUserStatus($userInfo['uid']);
+        dump($userInfo);die;
         return JsonService::successful($userInfo);
     }
 

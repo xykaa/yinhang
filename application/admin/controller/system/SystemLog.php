@@ -32,6 +32,7 @@ class SystemLog extends AuthController
         $this->assign('where',$where);
         $this->assign('admin',SystemAdmin::getOrdAdmin('id,real_name',$this->adminInfo['level']));
         $this->assign(LogModel::systemPage($where));
+        // dump($where);die;
         return $this->fetch();
     }
 

@@ -42,6 +42,7 @@ class User extends AuthController
      */
     public function index(){
         $this->assign('count_user',UserModel::getcount());
+        // dump(SystemUserLevel::where(['is_show'=>1,'is_del'=>0])->field(['id','name'])->select());die;
         $this->assign('level_list',SystemUserLevel::where(['is_show'=>1,'is_del'=>0])->field(['id','name'])->select());
         return $this->fetch();
     }

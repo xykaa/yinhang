@@ -1,0 +1,4416 @@
+---------------------------------------------------------------
+[ 2019-12-26T14:51:05+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.173068s] [吞吐率：5.78req/s] [内存消耗：3,651.83kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.209479s] [吞吐率：4.77req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000025s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:17+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180703s] [吞吐率：5.53req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:23+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.199254s] [吞吐率：5.02req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:29+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.182533s] [吞吐率：5.48req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:35+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.179833s] [吞吐率：5.56req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000025s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:41+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180199s] [吞吐率：5.55req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:47+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180131s] [吞吐率：5.55req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:53+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.186422s] [吞吐率：5.36req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:51:59+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.176205s] [吞吐率：5.68req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:05+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.200034s] [吞吐率：5.00req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000025s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.196561s] [吞吐率：5.09req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:17+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.171390s] [吞吐率：5.83req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:23+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.168681s] [吞吐率：5.93req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:29+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.174696s] [吞吐率：5.72req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:35+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.173001s] [吞吐率：5.78req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:41+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.172297s] [吞吐率：5.80req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000012s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:47+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.177594s] [吞吐率：5.63req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000023s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:53+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.177670s] [吞吐率：5.63req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:52:59+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.171959s] [吞吐率：5.82req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:05+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180266s] [吞吐率：5.55req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.177518s] [吞吐率：5.63req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:17+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.183036s] [吞吐率：5.46req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:23+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.182663s] [吞吐率：5.47req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:29+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.174340s] [吞吐率：5.74req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:35+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.174158s] [吞吐率：5.74req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:41+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.178105s] [吞吐率：5.61req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000017s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:47+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180726s] [吞吐率：5.53req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:53+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.175350s] [吞吐率：5.70req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:53:59+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.173741s] [吞吐率：5.76req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:05+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.169997s] [吞吐率：5.88req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.176829s] [吞吐率：5.66req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:16+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/index.html
+[运行时间：0.197268s] [吞吐率：5.07req/s] [内存消耗：3,328.02kb] [文件加载：125]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/login/0',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Carry\Desktop\yinhang/application/admin\view\index\index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:17+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/main.html
+[运行时间：0.350619s] [吞吐率：2.85req/s] [内存消耗：3,719.26kb] [文件加载：128]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-mode' => 'nested-navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000035s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Carry\Desktop\yinhang/application/admin\view\index\main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:17+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/userchart.html
+[运行时间：0.143756s] [吞吐率：6.96req/s] [内存消耗：3,365.88kb] [文件加载：124]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/main.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/userchart_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000032s ]
+[ info ] [ RUN ] app\admin\controller\Index->userchart[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:18+08:00 ] 127.0.0.1 GET 127.0.0.1/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.033487s] [吞吐率：29.86req/s] [内存消耗：1,500.20kb] [文件加载：97]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'sec-fetch-site' => 'none',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/public/system/frame/css/bootstrap_min_css_map' => '',
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:18+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.128830s] [吞吐率：7.76req/s] [内存消耗：3,355.64kb] [文件加载：124]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/main.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/orderchart_html' => '',
+  'cycle' => 'thirtyday',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->orderchart[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:19+08:00 ] 127.0.0.1 GET 127.0.0.1/public/static/plug/axios.min.map
+[运行时间：0.050515s] [吞吐率：19.80req/s] [内存消耗：1,499.66kb] [文件加载：97]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'plug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'sec-fetch-site' => 'none',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/public/static/plug/axios_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:19+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.228867s] [吞吐率：4.37req/s] [内存消耗：3,647.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000017s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/user.user/index.html
+[运行时间：0.197057s] [吞吐率：5.07req/s] [内存消耗：3,530.16kb] [文件加载：128]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-mode' => 'nested-navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user_user/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.071612s ]
+[ info ] [ RUN ] app\admin\controller\user\User->index[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\user\User.php ]
+[ info ] [ VIEW ] C:\Users\Carry\Desktop\yinhang/application/admin\view\user\user\index.php [ array (
+  0 => '_admin',
+  1 => 'count_user',
+  2 => 'level_list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.038600s] [吞吐率：25.91req/s] [内存消耗：1,500.20kb] [文件加载：97]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'sec-fetch-site' => 'none',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/public/system/frame/css/bootstrap_min_css_map' => '',
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/user.user/get_user_list.html?page=1&limit=20
+[运行时间：0.234254s] [吞吐率：4.27req/s] [内存消耗：3,479.86kb] [文件加载：126]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/user.user/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user_user/get_user_list_html' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.063074s ]
+[ info ] [ RUN ] app\admin\controller\user\User->get_user_list[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:24+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180259s] [吞吐率：5.55req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:30+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.186825s] [吞吐率：5.35req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:36+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.186111s] [吞吐率：5.37req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000023s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:42+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.177910s] [吞吐率：5.62req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:48+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.183127s] [吞吐率：5.46req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:54:54+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.184244s] [吞吐率：5.43req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:00+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.183304s] [吞吐率：5.46req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:06+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.172326s] [吞吐率：5.80req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:12+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180474s] [吞吐率：5.54req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:18+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.172268s] [吞吐率：5.80req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:24+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.175885s] [吞吐率：5.69req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:30+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.186640s] [吞吐率：5.36req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:36+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.172364s] [吞吐率：5.80req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:42+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.174827s] [吞吐率：5.72req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:48+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.184695s] [吞吐率：5.41req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:55:54+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180500s] [吞吐率：5.54req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:00+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.181281s] [吞吐率：5.52req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:06+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.169907s] [吞吐率：5.89req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:12+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.176450s] [吞吐率：5.67req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:18+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.180796s] [吞吐率：5.53req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:24+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.203081s] [吞吐率：4.92req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:30+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.206852s] [吞吐率：4.83req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000027s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:36+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.209742s] [吞吐率：4.77req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000033s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:42+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.178377s] [吞吐率：5.61req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:48+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.182631s] [吞吐率：5.48req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:56:54+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.183035s] [吞吐率：5.46req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:00+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.174877s] [吞吐率：5.72req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000018s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:06+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165455s] [吞吐率：6.04req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000025s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:12+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.171237s] [吞吐率：5.84req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:18+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.171360s] [吞吐率：5.84req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000022s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:24+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.170690s] [吞吐率：5.86req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:30+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.161412s] [吞吐率：6.20req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000012s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:36+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.160549s] [吞吐率：6.23req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:42+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.183462s] [吞吐率：5.45req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:48+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.170636s] [吞吐率：5.86req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:57:54+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.168408s] [吞吐率：5.94req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:00+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.166365s] [吞吐率：6.01req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:06+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.178688s] [吞吐率：5.60req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:12+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.159218s] [吞吐率：6.28req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:18+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165450s] [吞吐率：6.04req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:24+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.168964s] [吞吐率：5.92req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:30+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.172405s] [吞吐率：5.80req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000017s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:36+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.167198s] [吞吐率：5.98req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:42+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.160509s] [吞吐率：6.23req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000018s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:48+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.171301s] [吞吐率：5.84req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:58:54+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.161787s] [吞吐率：6.18req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000017s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:00+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.167642s] [吞吐率：5.97req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:06+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.171997s] [吞吐率：5.81req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:08+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/index.html
+[运行时间：0.146022s] [吞吐率：6.85req/s] [内存消耗：3,328.02kb] [文件加载：125]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/login/0',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Carry\Desktop\yinhang/application/admin\view\index\index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:08+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/main.html
+[运行时间：0.312132s] [吞吐率：3.20req/s] [内存消耗：3,719.26kb] [文件加载：128]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-mode' => 'nested-navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000034s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Carry\Desktop\yinhang/application/admin\view\index\main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:08+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.190964s] [吞吐率：5.24req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000025s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:09+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/userchart.html
+[运行时间：0.206179s] [吞吐率：4.85req/s] [内存消耗：3,365.88kb] [文件加载：124]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/main.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/userchart_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->userchart[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:09+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.102197s] [吞吐率：9.79req/s] [内存消耗：3,355.64kb] [文件加载：124]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/main.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/orderchart_html' => '',
+  'cycle' => 'thirtyday',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->orderchart[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:10+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/user.user/index.html
+[运行时间：0.237805s] [吞吐率：4.21req/s] [内存消耗：3,530.16kb] [文件加载：128]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-mode' => 'nested-navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user_user/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.073746s ]
+[ info ] [ RUN ] app\admin\controller\user\User->index[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\user\User.php ]
+[ info ] [ VIEW ] C:\Users\Carry\Desktop\yinhang/application/admin\view\user\user\index.php [ array (
+  0 => '_admin',
+  1 => 'count_user',
+  2 => 'level_list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/user.user/get_user_list.html?page=1&limit=20
+[运行时间：0.216060s] [吞吐率：4.63req/s] [内存消耗：3,479.86kb] [文件加载：126]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/user.user/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user_user/get_user_list_html' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.089295s ]
+[ info ] [ RUN ] app\admin\controller\user\User->get_user_list[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:14+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165013s] [吞吐率：6.06req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000024s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:21+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.188643s] [吞吐率：5.30req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000022s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:27+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.155497s] [吞吐率：6.43req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:33+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.191781s] [吞吐率：5.21req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000028s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:39+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.167156s] [吞吐率：5.98req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000017s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:45+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.170843s] [吞吐率：5.85req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000026s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:51+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165881s] [吞吐率：6.03req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T14:59:57+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.166185s] [吞吐率：6.02req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:03+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.169889s] [吞吐率：5.89req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:09+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.190979s] [吞吐率：5.24req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000023s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:15+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.169600s] [吞吐率：5.90req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000025s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:21+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.168643s] [吞吐率：5.93req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:27+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.164671s] [吞吐率：6.07req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:33+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.166580s] [吞吐率：6.00req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:39+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.168202s] [吞吐率：5.95req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:45+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165647s] [吞吐率：6.04req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:51+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.198531s] [吞吐率：5.04req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000027s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:00:57+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165001s] [吞吐率：6.06req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-26T15:01:03+08:00 ] 127.0.0.1 GET 127.0.0.1/admin/index/Jnotice
+[运行时间：0.165920s] [吞吐率：6.03req/s] [内存消耗：3,651.89kb] [文件加载：129]
+[ info ] [ LANG ] C:\Users\Carry\Desktop\yinhang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'clear_0.0.1=1; PHPSESSID=edc3rdu77e55tu4m0ssh7d1mfs; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000013s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ C:\Users\Carry\Desktop\yinhang\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
