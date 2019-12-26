@@ -78,37 +78,13 @@ class User extends ModelBasic
      */
     public static function setWhere($where)
     {
+     
         if($where['order']!=''){
             $model=self::order(self::setOrder($where['order']));
         }else{
             $model=self::order('u.uid desc');
         }
-        if($where['user_time_type'] == 'visitno' && $where['user_time'] != ''){
-            list($startTime, $endTime) = explode(' - ', $where['user_time']);
-            $model = $model->where('u.last_time', ['>', strtotime($endTime)+24*3600], ['<', strtotime($startTime)],'or');
-        }
-        if($where['user_time_type'] == 'visit' && $where['user_time'] != ''){
-            list($startTime, $endTime) = explode(' - ', $where['user_time']);
-            $model = $model->where('u.last_time', '>', strtotime($startTime));
-            $model = $model->where('u.last_time', '<', strtotime($endTime)+24*3600);
-        }
-        if($where['user_time_type'] == 'add_time' && $where['user_time'] != ''){
-            list($startTime, $endTime) = explode(' - ', $where['user_time']);
-            $model = $model->where('u.add_time', '>', strtotime($startTime));
-            $model = $model->where('u.add_time', '<', strtotime($endTime)+24*3600);
-        }
-        if($where['pay_count'] !== '') {
-            if($where['pay_count'] == '-1') $model = $model->where('pay_count',0);
-            else $model = $model->where('pay_count','>',$where['pay_count']);
-        }
-        if($where['user_type'] != ''){
-            if($where['user_type'] == 'routine') $model = $model->where('w.routine_openid','not null');
-            else if($where['user_type'] == 'wechat') $model = $model->where('w.openid','not null');
-        }
-        if($where['country'] != ''){
-            if($where['country'] == 'domestic') $model = $model->where('w.country','EQ','中国');
-            else if($where['country'] == 'abroad') $model = $model->where('w.country','NEQ','中国');
-        }
+      
         return $model;
     }
     /**

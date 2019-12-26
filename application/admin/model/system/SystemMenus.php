@@ -65,6 +65,7 @@ class SystemMenus extends ModelBasic
     public static function menuList()
     {
         $menusList = self::where('is_show','1')->where('access','1')->order('sort DESC')->select();
+        //var_dump ($menusList);exit;
         return self::tidyMenuTier(true,$menusList);
     }
 
@@ -106,6 +107,8 @@ class SystemMenus extends ModelBasic
                 $navList[] = $menu;
             }
         }
+       
+        
         return $navList;
     }
 
