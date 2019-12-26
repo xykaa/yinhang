@@ -37,6 +37,7 @@ class Index extends AuthController
             'new_order_audio_link'=>str_replace('\\','/',SystemConfigService::get('new_order_audio_link')),
             'role_name'=>SystemRole::where('id',$roles[0])->field('role_name')->find()
         ]);
+       
         return $this->fetch();
     }
     //后台首页内容

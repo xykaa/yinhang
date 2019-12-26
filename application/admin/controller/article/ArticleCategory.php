@@ -60,6 +60,7 @@ class ArticleCategory extends AuthController
 //            }
 //            return $options;
 //        })->multiple(1)->filterable(1);
+        
         $f[] = Form::formFrameImageOne('image','分类图片');
         $f[] = Form::number('sort','排序',0);
         $f[] = Form::radio('status','状态',1)->options([['value'=>1,'label'=>'显示'],['value'=>0,'label'=>'隐藏']]);

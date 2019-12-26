@@ -195,6 +195,7 @@ class StoreCoupon extends AuthController
         $this->assign('where',$where);
         $this->assign('uid',$id);
         $this->assign('nickname',implode(',',$nickname));
+       
         $this->assign(CouponModel::systemPageCoupon($where));
         return $this->fetch();
     }

@@ -85,6 +85,7 @@ class PublicApi extends AuthController
      * 首页
      */
     public function index(){
+    
         $banner = GroupDataService::getData('routine_home_banner')?:[];//TODO 首页banner图
         $menus = GroupDataService::getData('routine_home_menus')?:[];//TODO 首页按钮
         $roll = GroupDataService::getData('routine_home_roll_news')?:[];//TODO 首页滚动新闻

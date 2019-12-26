@@ -13,8 +13,8 @@
                         <form action="" class="form-inline">
                             <i class="fa fa-search" style="margin-right: 10px;"></i>
                             <div class="input-group" style="width: 80%">
-                                <input type="text" name="title" value="{$where.title}" placeholder="请输入优惠券名称" class="input-sm form-control"> <span class="input-group-btn">
-                                    <button type="submit" class="btn btn-sm btn-primary"> 搜索</button> </span>
+                            
+                            
                             </div>
                         </form>
                     </div>
@@ -22,39 +22,21 @@
                 <div class="table-responsive">
                     <table class="table table-striped  table-bordered">
                         <thead>
-                        <tr>
-                            <th class="text-center">优惠券名称</th>
-                            <th class="text-center">优惠券面值</th>
-                            <th class="text-center">优惠券最低消费</th>
-                            <th class="text-center">优惠券有效期限</th>
-                            <th class="text-center">操作</th>
-                        </tr>
+                        
                         </thead>
                         <tbody class="">
-                        {volist name="list" id="vo"}
                         <tr>
                             <td class="text-center">
-                                {$vo.title}
-                            </td>
-                            <td class="text-center">
-                                {$vo.coupon_price}
-                            </td>
-                            <td class="text-center">
-                                {$vo.use_min_price}
-                            </td>
-                            <td class="text-center">
-                                {$vo.coupon_time}天
-                            </td>
-                            <td class="text-center">
-                                <button class="btn btn-primary btn-xs grant" data-url="{:Url('ump.storeCouponUser/grant',array('id'=>$vo['id'],'uid'=>$uid))}" type="button"><i class="fa  fa-arrow-circle-o-right"></i> 发放
+                                <input type="text" name="title"  placeholder="请输入积分数量" class="input-sm form-control jk"> <span class="input-group-btn">
+                                <button class="btn btn-primary btn-xs grant" data-url="{:Url('ump.storeCouponUser/grant',array('uid'=>$uid))}" type="button"><i class="fa  fa-arrow-circle-o-right"></i> 发放
                                 </button>
                             </td>
                         </tr>
-                        {/volist}
+                    
                         </tbody>
                     </table>
                 </div>
-                {include file="public/inner_page"}
+                
             </div>
         </div>
     </div>
@@ -64,9 +46,10 @@
 <script>
     $('.grant').on('click',function(){
         window.t = $(this);
+        var a=$('.jk').val();
         var _this = $(this),url =_this.data('url');
         swal({
-            title: "您确定要发放优惠券给‘{$nickname}’吗？",
+            title: "您确定要发放积分吗？",
             text:"发放后将无法撤回，请谨慎操作！",
             type: "warning",
             showCancelButton: true,
@@ -76,7 +59,7 @@
             closeOnConfirm: false,
             closeOnCancel: false
         }).then(function(){
-            $eb.axios.get(url).then(function(res){
+            $eb.axios.get(url,{params:{'key':a}}).then(function(res){
                 if(res.status == 200 && res.data.code == 200) {
                     swal(res.data.msg);
                 }else

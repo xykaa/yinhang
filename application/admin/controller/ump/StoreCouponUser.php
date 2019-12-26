@@ -71,15 +71,14 @@ class StoreCouponUser extends AuthController
      * @param $uid
      * @return \think\response\Json
      */
-    public function grant($id,$uid){
-        if(!$id) return Json::fail('数据不存在!');
-        $coupon = CouponModel::get($id)->toArray();
-        if(!$coupon) return Json::fail('数据不存在!');
-        $user = explode(',',$uid);
-        if(!CouponUserModel::setCoupon($coupon,$user))
-            return Json::fail(CouponUserModel::getErrorInfo('发放失败,请稍候再试!'));
-        else
-            return Json::successful('发放成功!');
+    public function grant($uid){
+        $data=input ();
+        $uid=$data['uid'];
+        
+        $point=$data['key'];
+        if (!db('user')->where ('uid','in',$uid)->setInc('integral',$point)) return json::fail ('发放失败');
+        return json::fail ('发放成功');
+        
 
     }
 

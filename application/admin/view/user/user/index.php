@@ -53,20 +53,20 @@
                 </div>
             </div>
             <div class="ibox-content" style="display: block;">
-<!--                <div class="alert alert-success alert-dismissable">-->
-<!--                    <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>-->
-<!--                    目前拥有{$count_user}个会员-->
-<!--                </div>-->
+                <!--                <div class="alert alert-success alert-dismissable">-->
+                <!--                    <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>-->
+                <!--                    目前拥有{$count_user}个会员-->
+                <!--                </div>-->
                 <form class="layui-form">
                     <div class="layui-form-item">
                         <div class="layui-inline">
-                            <label class="layui-form-label">姓名编号：</label>
+                            <label class="layui-form-label">手机号：</label>
                             <div class="layui-input-inline">
-                                <input type="text" name="nickname" lay-verify="nickname" style="width: 100%" autocomplete="off" placeholder="请输入姓名、编号" class="layui-input">
+                                <input type="text" name="phone"  style="width: 100%" autocomplete="off" placeholder="手机号" class="layui-input">
                             </div>
                         </div>
-                        <div class="layui-inline">
-                            <label class="layui-form-label">用户类型：</label>
+                        <div class="layui-inline" style="display:none;">
+                            <label class="layui-form-label">用户类型:</label>
                             <div class="layui-input-inline">
                                 <select name="user_type" lay-verify="user_type">
                                     <option value="">全部</option>
@@ -85,8 +85,8 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="layui-inline">
-                            <label class="layui-form-label">性　　别：</label>
+                        <div class="layui-inline" style="display:none;">
+                            <label class="layui-form-label" >性　　别：</label>
                             <div class="layui-input-inline">
                                 <select name="sex" lay-verify="sex">
                                     <option value="">全部</option>
@@ -96,7 +96,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="layui-inline">
+                        <div class="layui-inline" style="display:none;">
                             <label class="layui-form-label">身　　份：</label>
                             <div class="layui-input-inline">
                                 <select name="is_promoter" lay-verify="is_promoter">
@@ -106,7 +106,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="layui-inline">
+                        <div class="layui-inline" style="display:none;">
                             <label class="layui-form-label">国　　家：</label>
                             <div class="layui-input-inline">
                                 <select name="country" lay-verify="country" lay-filter='country'>
@@ -116,7 +116,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="layui-inline" id="province-div">
+                        <div class="layui-inline" id="province-div" style="display:none;">
                             <label class="layui-form-label">省　　份：</label>
                             <div class="layui-input-inline">
                                 <select name="province" lay-verify="province" lay-filter='province' id="province">
@@ -124,7 +124,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="layui-inline" id="city-div">
+                        <div class="layui-inline" id="city-div" style="display:none;">
                             <label class="layui-form-label">市　　区：</label>
                             <div class="layui-input-inline">
                                 <select name="city" lay-verify="city"  lay-filter='city' id="city">
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="layui-form-item">
+                    <div class="layui-form-item" style="display:none;">
                         <div class="layui-inline">
                             <label class="layui-form-label">消费情况：</label>
                             <div class="layui-input-inline">
@@ -200,12 +200,12 @@
             <div class="ibox-content">
                 <div class="table-responsive">
                     <div class="layui-btn-group conrelTable">
-<!--                        <button class="layui-btn layui-btn-sm layui-btn-danger" type="button" data-type="set_status_f"><i class="fa fa-ban"></i>封禁</button>-->
-<!--                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_status_j"><i class="fa fa-check-circle-o"></i>解封</button>-->
-                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_grant"><i class="fa fa-check-circle-o"></i>发送优惠券</button>
-                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_custom"><i class="fa fa-check-circle-o"></i>发送客服图文消息</button>
-<!--                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_template"><i class="fa fa-check-circle-o"></i>发送模板消息</button>-->
-                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_info"><i class="fa fa-check-circle-o"></i>发送站内消息</button>
+                        <!--                        <button class="layui-btn layui-btn-sm layui-btn-danger" type="button" data-type="set_status_f"><i class="fa fa-ban"></i>封禁</button>-->
+                        <!--                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_status_j"><i class="fa fa-check-circle-o"></i>解封</button>-->
+                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_grant"><i class="fa fa-check-circle-o"></i>批量发送积分</button>
+                       <!-- <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_custom"><i class="fa fa-check-circle-o"></i>发送客服图文消息</button>-->
+                        <!--                        <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_template"><i class="fa fa-check-circle-o"></i>发送模板消息</button>-->
+                 <!--       <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="set_info"><i class="fa fa-check-circle-o"></i>发送站内消息</button>-->
                         <button class="layui-btn layui-btn-sm layui-btn-normal" type="button" data-type="refresh"><i class="layui-icon layui-icon-refresh" ></i>刷新</button>
                     </div>
                     <table class="layui-hide" id="userList" lay-filter="userList"></table>
@@ -234,7 +234,7 @@
                                 <a href="javascript:void(0);" lay-event="see">
                                     <i class="layui-icon layui-icon-edit"></i> 会员详情</a>
                             </li>
-                            <li>
+                            <li style="display:none;">
                                 <a href="javascript:void(0);" lay-event="give_level">
                                     <i class="fa fa-gift" aria-hidden="true"></i> 赠送会员</a>
                             </li>
@@ -294,21 +294,21 @@
     layList.form.render();
     layList.tableList('userList',"{:Url('get_user_list')}",function () {
         return [
-                {type:'checkbox'},
-                {field: 'uid', title: '编号', width:'6%',event:'uid'},
-                {field: 'avatar', title: '头像', event:'open_image', width: '6%', templet: '<p lay-event="open_image"><img class="avatar" style="cursor: pointer" class="open_image" data-image="{{d.avatar}}" src="{{d.avatar}}" alt="{{d.nickname}}"></p>'},
-                {field: 'nickname', title: '姓名',templet:'#nickname'},
-                {field: 'now_money', title: '余额',width:'6%',sort:true,event:'now_money'},
-                {field: 'pay_count', title: '购买次数',align:'center',width:'6%'},
-                {field: 'extract_count_price', title: '累计提现',align:'center',width:'6%'},
-                {field: 'integral', title: '积分',width:'6%',sort:true,event:'integral'},
-                {field: 'spread_uid_nickname', title: '推荐人',width:'6%'},
-                {field: 'sex', title: '性别',width:'4%'},
-                {field: 'time', title: '访问日期',align:'center',width:'12%',templet:'#time'},
-                {field: 'status', title: '状态',templet:"#checkboxstatus",width:'6%'},
-                {field: 'user_type', title: '用户类型',width:'6%'},
-                {fixed: 'right', title: '操作', width: '10%', align: 'center', toolbar: '#barDemo'}
-            ];
+            {type:'checkbox'},
+            {field: 'uid', title: '编号', width:'6%',event:'uid'},
+            {field: 'phone', title: '手机号', event:'open_image', width: '8%'},
+            {field: 'user_type', title: '用户级别',width:'6%'},
+            {field: 'now_money', title: '余额',width:'6%',sort:true,event:'now_money'},
+            {field: 'integral', title: '积分',width:'6%',sort:true,event:'now_money'},
+            {field: 'status', title: '状态',templet:"#checkboxstatus",width:'6%'},
+            {field: 'add_time', title: '添加时间',align:'center',width:'10%'},
+            {field: 'add_ip', title: '注册iP',width:'10%',sort:true,event:'integral'},
+            {field: 'last_id', title: '最后登录ip',width:'10%'},
+            {field: 'shifou', title: '是否进行消费',width:'8%'},
+            {field: 'check', title: '审核状态',width:'8%'},
+
+            {fixed: 'right', title: '操作', width: '10%', align: 'center', toolbar: '#barDemo'}
+        ];
     });
     layList.date('last_time');
     layList.date('add_time');
@@ -393,15 +393,15 @@
 
     var action={
         set_status_f:function () {
-           var ids=layList.getCheckData().getIds('uid');
-           if(ids.length){
-               layList.basePost(layList.Url({a:'set_status',p:{is_echo:1,status:0}}),{uids:ids},function (res) {
-                   layList.msg(res.msg);
-                   layList.reload();
-               });
-           }else{
-               layList.msg('请选择要封禁的会员');
-           }
+            var ids=layList.getCheckData().getIds('uid');
+            if(ids.length){
+                layList.basePost(layList.Url({a:'set_status',p:{is_echo:1,status:0}}),{uids:ids},function (res) {
+                    layList.msg(res.msg);
+                    layList.reload();
+                });
+            }else{
+                layList.msg('请选择要封禁的会员');
+            }
         },
         set_status_j:function () {
             var ids=layList.getCheckData().getIds('uid');
