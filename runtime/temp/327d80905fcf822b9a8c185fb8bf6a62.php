@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:77:"C:\Users\Carry\Desktop\yinhang/application/admin\view\user\user_log\index.php";i:1577340466;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:76:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\inner_page1.php";i:1577327046;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:77:"C:\Users\Carry\Desktop\yinhang/application/admin\view\user\user_log\index.php";i:1577348375;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:76:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\inner_page1.php";i:1577327046;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -102,8 +102,8 @@
                     <table class="table table-striped  table-bordered">
                         <thead>
                         <tr>
-                            <th class="text-center">编号</th>
-                            <th class="text-center">ID/名称</th>
+                            <th class="text-center">日志编号</th>
+                            <th class="text-center">用户ID</th>
                             <th class="text-center">用户名</th>
                             <th class="text-center">类型</th>
 

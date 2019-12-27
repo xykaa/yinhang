@@ -29,8 +29,8 @@
                     <table class="table table-striped  table-bordered">
                         <thead>
                         <tr>
-                            <th class="text-center">编号</th>
-                            <th class="text-center">ID/名称</th>
+                            <th class="text-center">日志编号</th>
+                            <th class="text-center">用户ID</th>
                             <th class="text-center">用户名</th>
                             <th class="text-center">类型</th>
 

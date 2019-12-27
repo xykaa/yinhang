@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:89:"C:\Users\Carry\Desktop\yinhang/application/admin\view\setting\system_config_tab\index.php";i:1577156537;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\inner_page.php";i:1577327043;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:84:"C:\Users\Carry\Desktop\yinhang/application/admin\view\setting\system_menus\index.php";i:1577156537;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\inner_page.php";i:1577327043;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -76,127 +76,93 @@
 
 <div class="row">
     <div class="col-sm-12">
-        <div class="ibox float-e-margins">
+        <div class="ibox">
             <div class="ibox-title">
-
-                <button type="button" class="btn btn-w-m btn-primary add-filed">添加配置分类</button>
-                <button type="button" class="btn btn-w-m btn-primary add_filed_base">添加配置</button>
-
+                <a type="button" class="btn btn-w-m btn-primary" href="<?php echo Url('index'); ?>">规则首页</a>
+                <button type="button" class="btn btn-w-m btn-primary" onclick="$eb.createModalFrame(this.innerText,'<?php echo $addurl; ?>')">添加规则</button>
                 <div class="ibox-tools">
 
                 </div>
-
             </div>
             <div class="ibox-content">
-
                 <div class="row">
-
                     <div class="m-b m-l">
-
                         <form action="" class="form-inline">
 
-                            <select name="status" aria-controls="editable" class="form-control input-sm">
-                                <option value="">状态</option>
-                                <option value="1" <?php if($where['status'] == '1'): ?>selected="selected"<?php endif; ?>>显示</option>
-                                <option value="0" <?php if($where['status'] == '0'): ?>selected="selected"<?php endif; ?>>不显示</option>
+                            <select name="is_show" aria-controls="editable" class="form-control input-sm">
+                                <option value="">是否显示</option>
+                                <option value="1" <?php if($params['is_show'] == '1'): ?>selected="selected"<?php endif; ?>>显示</option>
+                                <option value="0" <?php if($params['is_show'] == '0'): ?>selected="selected"<?php endif; ?>>不显示</option>
                             </select>
-
-                            <div class="input-group" style="margin-top: 5px;">
-
-                                <input type="text" placeholder="请输入分类昵称" name="title" value="<?php echo $where['title']; ?>" class="input-sm form-control"> <span class="input-group-btn">
-
-                                    <button type="submit" class="btn btn-sm btn-primary"> <i class="fa fa-search"></i>搜索</button> </span>
-
-                            </div>
-
+                            <?php
+                            /**<select name="access" aria-controls="editable" class="form-control input-sm">
+                                <option value="">子管理员是否可用</option>
+                                <option value="1" <?php if($params['access'] == '1'): ?>selected="selected"<?php endif; ?>>可用</option>
+                                <option value="0" <?php if($params['access'] == '0'): ?>selected="selected"<?php endif; ?>>不可用</option>
+                            </select>
+                            **/?>
+                        <div class="input-group">
+                            <input type="text" name="keyword" value="<?php echo $params['keyword']; ?>" placeholder="请输入关键词/规则ID/父级ID" class="input-sm form-control"> <span class="input-group-btn">
+                                    <button type="submit" class="btn btn-sm btn-primary"> <i class="fa fa-search" ></i>搜索</button> </span>
+                        </div>
                         </form>
-
                     </div>
 
-
-
                 </div>
-
                 <div class="table-responsive">
-
                     <table class="table table-striped  table-bordered">
-
                         <thead>
-
                         <tr>
 
-
-
-                            <th>编号</th>
-
-                            <th>分类昵称</th>
-
-                            <th>分类字段</th>
-
-                            <th>是否显示</th>
-
-                            <th>操作</th>
-
+                            <th class="text-center">编号</th>
+                            <th class="text-center">按钮名</th>
+                            <th class="text-center">父级</th>
+                            <th class="text-center">模块名</th>
+                            <th class="text-center">控制器名</th>
+                            <th class="text-center">方法名</th>
+                            <th class="text-center">是否菜单</th>
+<!--                            <th class="text-center">子管理员可用</th>-->
+                            <th class="text-center">操作</th>
                         </tr>
-
                         </thead>
-
                         <tbody class="">
-
                         <?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-
                         <tr>
-
                             <td class="text-center">
-
                                 <?php echo $vo['id']; ?>
-
                             </td>
-
                             <td class="text-center">
-
-                                <a href="<?php echo url('sonConfigTab',array('tab_id'=>$vo['id'])); ?>" style="cursor: pointer"><?php echo $vo['title']; ?></a>
-
+                                <a href="<?php echo Url('index',array('pid'=>$vo['id'])); ?>"><?php echo $vo['menu_name']; ?></a>
                             </td>
-
                             <td class="text-center">
-
-                                <?php echo $vo['eng_title']; ?>
-
+                                <?php echo $vo['pid']; ?>
                             </td>
-
                             <td class="text-center">
-
-                                <?php if($vo['status'] == 1): ?>
-                                <i class="fa fa-check text-navy"></i>
-                                <?php elseif($vo['status'] == 2): ?>
-                                <i class="fa fa-close text-danger"></i>
-                                <?php endif; ?>
-
+                                <?php echo $vo['module']; ?>
                             </td>
-
                             <td class="text-center">
-
-                                <button class="btn btn-info btn-xs" type="button"  onclick="$eb.createModalFrame('编辑','<?php echo Url('edit',array('id'=>$vo['id'])); ?>')"><i class="fa fa-paste"></i> 编辑</button>
-
-                                <?php if($vo['id'] > 2): ?>
-                                <button class="btn btn-warning btn-xs del_config_tab" data-id="<?php echo $vo['id']; ?>" type="button" data-url="<?php echo Url('delete',array('id'=>$vo['id'])); ?>" ><i class="fa fa-warning"></i> 删除
-
+                                <?php echo $vo['controller']; ?>
+                            </td>
+                            <td class="text-center">
+                                <?php echo $vo['action']; ?>
+                            </td>
+                            <td class="text-center">
+                                <i class="fa <?php if($vo['is_show'] == '1'): ?>fa-check text-navy<?php else: ?>fa-close text-danger<?php endif; ?>"></i>
+                            </td>
+                            <!--<td class="text-center">
+                                <i class="fa <?php if($vo['access'] == '1'): ?>fa-check text-navy<?php else: ?>fa-close text-danger<?php endif; ?>"></i>
+                            </td>-->
+                            <td class="text-center">
+                                <button class="btn btn-info btn-xs" type="button"  onclick="$eb.createModalFrame(this.innerText,'<?php echo Url('create',array('cid'=>$vo['id'])); ?>')"><i class="fa fa-paste"></i> 添加子菜单</button>
+                                <button class="btn btn-info btn-xs" type="button"  onclick="$eb.createModalFrame(this.innerText,'<?php echo Url('edit',array('id'=>$vo['id'])); ?>')"><i class="fa fa-paste"></i> 编辑</button>
+                                <button class="btn btn-warning btn-xs" data-url="<?php echo Url('delete',array('id'=>$vo['id'])); ?>" type="button"><i class="fa fa-warning"></i> 删除
                                 </button>
-                                <?php endif; ?>
-
                             </td>
-
                         </tr>
-
                         <?php endforeach; endif; else: echo "" ;endif; ?>
-
                         </tbody>
-
                     </table>
-
                 </div>
-
                 <link href="/public/system/frame/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
 <div class="row">
     <div class="col-sm-6">
@@ -208,69 +174,29 @@
         </div>
     </div>
 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 
 
 
 <script>
-
-    $('.add-filed').on('click',function (e) {
-        $eb.createModalFrame(this.innerText,"<?php echo Url('create'); ?>");
-    })
-    $('.del_config_tab').on('click',function(){
-
+    $('.btn-warning').on('click',function(){
         var _this = $(this),url =_this.data('url');
-
         $eb.$swal('delete',function(){
-
             $eb.axios.get(url).then(function(res){
-
+                console.log(res);
                 if(res.status == 200 && res.data.code == 200) {
-
                     $eb.$swal('success',res.data.msg);
-
                     _this.parents('tr').remove();
-
                 }else
-
                     return Promise.reject(res.data.msg || '删除失败')
-
             }).catch(function(err){
-
                 $eb.$swal('error',err);
-
             });
-
         })
-
     });
-    $('.add_filed_base').on('click',function (e) {
-        $eb.swal({
-            title: '请选择数据类型',
-            input: 'radio',
-            inputOptions: ['文本框','多行文本框','单选框','文件上传','多选框'],
-            inputValidator: function(result) {
-                return new Promise(function(resolve, reject) {
-                    if (result) {
-                        resolve();
-                    } else {
-                        reject('请选择数据类型');
-                    }
-                });
-            }
-        }).then(function(result) {
-            if (result) {
-                $eb.createModalFrame(this.innerText,"<?php echo Url('setting.systemConfig/create'); ?>?type="+result);
-            }
-        })
-    })
 </script>
 
 

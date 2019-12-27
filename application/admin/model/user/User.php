@@ -612,40 +612,70 @@ class User extends ModelBasic
             ['name'=>'手机号码','value'=>$UserInfo['phone']],
 //            ['name'=>'ID','value'=>$uid],
             ['name'=>'姓名','value'=>''],
-            ['name'=>'微信昵称','value'=>$UserInfo['nickname']],
+            // ['name'=>'微信昵称','value'=>$UserInfo['nickname']],
             ['name'=>'邮箱','value'=>''],
             ['name'=>'生日','value'=>''],
             ['name'=>'积分','value'=>$UserInfo['integral']],
-            ['name'=>'上级推广人','value'=>$UserInfo['spread_uid'] ? self::where(['uid'=>$UserInfo['spread_uid']])->value('nickname'):''],
-            ['name'=>'账户余额','value'=>$UserInfo['now_money']],
-            ['name'=>'佣金总收入','value'=>UserBill::where(['category'=>'now_money','type'=>'brokerage','uid'=>$uid])->sum('number')],
-            ['name'=>'提现总金额','value'=> Db::name('user_extract')->where(['uid'=>$uid,'status'=>1])->sum('extract_price')],
+            // ['name'=>'上级推广人','value'=>$UserInfo['spread_uid'] ? self::where(['uid'=>$UserInfo['spread_uid']])->value('nickname'):''],
+            // ['name'=>'账户余额','value'=>$UserInfo['now_money']],
+            // ['name'=>'佣金总收入','value'=>UserBill::where(['category'=>'now_money','type'=>'brokerage','uid'=>$uid])->sum('number')],
+            // ['name'=>'提现总金额','value'=> Db::name('user_extract')->where(['uid'=>$uid,'status'=>1])->sum('extract_price')],
         ];
     }
     //获取某用户的订单个数,消费明细
     public static function getHeaderList($uid){
         return [
             [
-                'title'=>'总计订单',
+                'title'=>'线上商城订单',
                 'value'=>StoreOrder::where(['uid'=>$uid])->count(),
                 'key'=>'笔',
                 'class'=>'',
             ],
             [
-                'title'=>'总消费金额',
+                'title'=>'线上总消费金额',
                 'value'=>StoreOrder::where(['uid'=>$uid,'paid'=>1])->sum('total_price'),
                 'key'=>'元',
                 'class'=>'',
             ],
             [
-                'title'=>'本月订单',
+                'title'=>'线上本月订单',
                 'value'=>StoreOrder::where(['uid'=>$uid])->whereTime('add_time','month')->count(),
                 'key'=>'笔',
                 'class'=>'',
             ],
             [
-                'title'=>'本月消费金额',
+                'title'=>'线上本月消费金额',
                 'value'=>StoreOrder::where(['uid'=>$uid])->whereTime('add_time','month')->sum('total_price'),
+                'key'=>'元',
+                'class'=>'',
+            ]
+        ];
+    }
+    //获取某用户的订单个数,消费明细
+    public static function getDownList($uid){
+        $downListCount = Db::name('user_detail_log')->where(['uid'=>$uid])->count();
+        return [
+            [
+                'title'=>'线下商家订单',
+                'value'=>$downListCount,
+                'key'=>'笔',
+                'class'=>'',
+            ],
+            [
+                'title'=>'线下总消费金额',
+                'value'=>Db::name('user_detail_log')->where(['uid'=>$uid])->sum('user_money'),
+                'key'=>'元',
+                'class'=>'',
+            ],
+            [
+                'title'=>'线下本月订单',
+                'value'=>Db::name('user_detail_log')->where(['uid'=>$uid])->whereTime('change_time','month')->count(),
+                'key'=>'笔',
+                'class'=>'',
+            ],
+            [
+                'title'=>'线下本月消费金额',
+                'value'=>Db::name('user_detail_log')->where(['uid'=>$uid])->whereTime('change_time','month')->sum('user_money'),
                 'key'=>'元',
                 'class'=>'',
             ]

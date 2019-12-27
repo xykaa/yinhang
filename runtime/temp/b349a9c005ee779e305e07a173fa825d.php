@@ -1,5 +1,79 @@
-{extend name="public/container"}
-{block name="content"}
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:71:"C:\Users\Carry\Desktop\yinhang/application/admin\view\user\user\see.php";i:1577354263;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php if(empty($is_layui) || (($is_layui instanceof \think\Collection || $is_layui instanceof \think\Paginator ) && $is_layui->isEmpty())): ?>
+    <link href="/public/system/frame/css/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <?php endif; ?>
+    <link href="/public/static/plug/layui/css/layui.css" rel="stylesheet">
+    <link href="/public/system/css/layui-admin.css" rel="stylesheet"></link>
+    <link href="/public/system/frame/css/font-awesome.min.css?v=4.3.0" rel="stylesheet">
+    <link href="/public/system/frame/css/animate.min.css" rel="stylesheet">
+    <link href="/public/system/frame/css/style.min.css?v=3.0.0" rel="stylesheet">
+    <script src="/public/system/frame/js/jquery.min.js"></script>
+    <script src="/public/system/frame/js/bootstrap.min.js"></script>
+    <script src="/public/static/plug/layui/layui.all.js"></script>
+    <script>
+        $eb = parent._mpApi;
+        window.controlle="<?php echo strtolower(trim(preg_replace("/[A-Z]/", "_\\0", think\Request::instance()->controller()), "_"));?>";
+        window.module="<?php echo think\Request::instance()->module();?>";
+    </script>
+
+
+
+    <title></title>
+    
+    <!--<script type="text/javascript" src="/static/plug/basket.js"></script>-->
+<script type="text/javascript" src="/public/static/plug/requirejs/require.js"></script>
+<?php /*  <script type="text/javascript" src="/static/plug/requirejs/require-basket-load.js"></script>  */ ?>
+<script>
+    var hostname = location.hostname;
+    if(location.port) hostname += ':' + location.port;
+    requirejs.config({
+        map: {
+            '*': {
+                'css': '/public/static/plug/requirejs/require-css.js'
+            }
+        },
+        shim:{
+            'iview':{
+                deps:['css!iviewcss']
+            },
+            'layer':{
+                deps:['css!layercss']
+            }
+        },
+        baseUrl:'//'+hostname+'/public/',
+        paths: {
+            'static':'static',
+            'system':'system',
+            'vue':'static/plug/vue/dist/vue.min',
+            'axios':'static/plug/axios.min',
+            'iview':'static/plug/iview/dist/iview.min',
+            'iviewcss':'static/plug/iview/dist/styles/iview',
+            'lodash':'static/plug/lodash',
+            'layer':'static/plug/layer/layer',
+            'layercss':'static/plug/layer/theme/default/layer',
+            'jquery':'static/plug/jquery/jquery.min',
+            'moment':'static/plug/moment',
+            'sweetalert':'static/plug/sweetalert2/sweetalert2.all.min'
+
+        },
+        basket: {
+            excludes:['system/js/index','system/util/mpVueComponent','system/util/mpVuePackage']
+//            excludes:['system/util/mpFormBuilder','system/js/index','system/util/mpVueComponent','system/util/mpVuePackage']
+        }
+    });
+</script>
+<script type="text/javascript" src="/public/system/util/mpFrame.js"></script>
+    
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content">
+
 <style>
     .backlog-body{
         padding: 10px 15px;
@@ -41,16 +115,14 @@
                 <div class="layui-card-header">会员详情</div>
                 <div class="layui-card-body">
                     <ul class="layui-row layui-col-space10 layui-this">
-                        {volist name='userinfo' id='vo'}
-                            {if trim($vo.value)}
+                        <?php if(is_array($userinfo) || $userinfo instanceof \think\Collection || $userinfo instanceof \think\Paginator): $i = 0; $__LIST__ = $userinfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;if(trim($vo['value'])): ?>
                             <li class="layui-col-xs<?=isset($vo['col']) ? $vo['col'] :4?>">
                                 <div class="backlog-body">
-                                    <h3>{$vo.name}</h3>
-                                    <p><cite {if isset($vo['color'])} style="color: {$vo['color']}" {/if}>{$vo.value}</cite></p>
+                                    <h3><?php echo $vo['name']; ?></h3>
+                                    <p><cite <?php if(isset($vo['color'])): ?> style="color: <?php echo $vo['color']; ?>" <?php endif; ?>><?php echo $vo['value']; ?></cite></p>
                                 </div>
                             </li>
-                            {/if}
-                        {/volist}
+                            <?php endif; endforeach; endif; else: echo "" ;endif; ?>
                     </ul>
                 </div>
             </div>
@@ -60,34 +132,34 @@
                 <div class="layui-card-header">其他详情</div>
                 <div class="layui-card-body">
                 <div class="layui-row layui-col-space15">
-                    {volist name='downList' id='vo'}
+                    <?php if(is_array($downList) || $downList instanceof \think\Collection || $downList instanceof \think\Paginator): $i = 0; $__LIST__ = $downList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                     <div class="layui-col-xs3" style="margin-bottom: 10px ">
                         <div class="layui-card">
                             <div class="layui-card-header">
-                                {$vo.title}
-                                <span class="layui-badge layuiadmin-badge {if isset($vo.class) && $vo.class}{$vo.class}{else}layui-bg-blue{/if}">{$vo.key}</span>
+                                <?php echo $vo['title']; ?>
+                                <span class="layui-badge layuiadmin-badge <?php if(isset($vo['class']) && $vo['class']): ?><?php echo $vo['class']; else: ?>layui-bg-blue<?php endif; ?>"><?php echo $vo['key']; ?></span>
                             </div>
                             <div class="layui-card-body">
-                                <p class="layuiadmin-big-font">{$vo.value}</p>
+                                <p class="layuiadmin-big-font"><?php echo $vo['value']; ?></p>
                             </div>
                         </div>
                     </div>
-                    {/volist}
+                    <?php endforeach; endif; else: echo "" ;endif; ?>
                     </div>
                     <div class="layui-row layui-col-space15">
-                    {volist name='headerList' id='vo'}
+                    <?php if(is_array($headerList) || $headerList instanceof \think\Collection || $headerList instanceof \think\Paginator): $i = 0; $__LIST__ = $headerList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                     <div class="layui-col-xs3" style="margin-bottom: 10px ">
                         <div class="layui-card">
                             <div class="layui-card-header">
-                                {$vo.title}
-                                <span class="layui-badge layuiadmin-badge {if isset($vo.class) && $vo.class}{$vo.class}{else}layui-bg-blue{/if}">{$vo.key}</span>
+                                <?php echo $vo['title']; ?>
+                                <span class="layui-badge layuiadmin-badge <?php if(isset($vo['class']) && $vo['class']): ?><?php echo $vo['class']; else: ?>layui-bg-blue<?php endif; ?>"><?php echo $vo['key']; ?></span>
                             </div>
                             <div class="layui-card-body">
-                                <p class="layuiadmin-big-font">{$vo.value}</p>
+                                <p class="layuiadmin-big-font"><?php echo $vo['value']; ?></p>
                             </div>
                         </div>
                     </div>
-                    {/volist}
+                    <?php endforeach; endif; else: echo "" ;endif; ?>
                     </div>
                     
                 </div>
@@ -320,7 +392,7 @@
         </div>
     </div>
 </div>
-<script src="{__ADMIN_PATH}js/layuiList.js"></script>
+<script src="/public/system/js/layuiList.js"></script>
 <script>
     var count=<?=json_encode($count)?>,
         $uid=<?=$uid?>;
@@ -459,4 +531,10 @@
         });
     });
 </script>
-{/block}
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:89:"C:\Users\Carry\Desktop\yinhang/application/admin\view\setting\system_config_tab\index.php";i:1577156537;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\inner_page.php";i:1577327043;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:78:"C:\Users\Carry\Desktop\yinhang/application/admin\view\userlog\userlo\index.php";i:1577347436;s:74:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\container.php";i:1577156537;s:75:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_head.php";i:1577156537;s:70:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\style.php";i:1577156537;s:76:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\inner_page1.php";i:1577327046;s:77:"C:\Users\Carry\Desktop\yinhang\application\admin\view\public\frame_footer.php";i:1577156537;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -26,6 +26,10 @@
 
     <title></title>
     
+<script src="/public/static/plug/moment.js"></script>
+<link rel="stylesheet" href="/public/static/plug/daterangepicker/daterangepicker.css">
+<script src="/public/static/plug/daterangepicker/daterangepicker.js"></script>
+
     <!--<script type="text/javascript" src="/static/plug/basket.js"></script>-->
 <script type="text/javascript" src="/public/static/plug/requirejs/require.js"></script>
 <?php /*  <script type="text/javascript" src="/static/plug/requirejs/require-basket-load.js"></script>  */ ?>
@@ -76,127 +80,65 @@
 
 <div class="row">
     <div class="col-sm-12">
-        <div class="ibox float-e-margins">
-            <div class="ibox-title">
-
-                <button type="button" class="btn btn-w-m btn-primary add-filed">添加配置分类</button>
-                <button type="button" class="btn btn-w-m btn-primary add_filed_base">添加配置</button>
-
-                <div class="ibox-tools">
-
-                </div>
-
-            </div>
+        <div class="ibox">
             <div class="ibox-content">
-
                 <div class="row">
-
                     <div class="m-b m-l">
+                    <form action="" class="form-inline" id="form" method="get">
 
-                        <form action="" class="form-inline">
 
-                            <select name="status" aria-controls="editable" class="form-control input-sm">
-                                <option value="">状态</option>
-                                <option value="1" <?php if($where['status'] == '1'): ?>selected="selected"<?php endif; ?>>显示</option>
-                                <option value="0" <?php if($where['status'] == '0'): ?>selected="selected"<?php endif; ?>>不显示</option>
-                            </select>
+<div class="input-group datepicker">
+    <input style="width: 188px;" type="text" id="data" class="input-sm form-control" name="data" value="" placeholder="请选择日期" >
+</div>
 
-                            <div class="input-group" style="margin-top: 5px;">
-
-                                <input type="text" placeholder="请输入分类昵称" name="title" value="<?php echo $where['title']; ?>" class="input-sm form-control"> <span class="input-group-btn">
-
-                                    <button type="submit" class="btn btn-sm btn-primary"> <i class="fa fa-search"></i>搜索</button> </span>
-
-                            </div>
-
-                        </form>
-
+<div class="input-group">
+    <input type="text" name="phone" value="" placeholder="请输入手机号" class="input-sm form-control"> <span class="input-group-btn">
+        <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-search" ></i> 搜索</button> </span>
+</div>
+</form>
                     </div>
-
-
-
                 </div>
-
                 <div class="table-responsive">
-
                     <table class="table table-striped  table-bordered">
-
                         <thead>
-
                         <tr>
+                            <th class="text-center">编号</th>
+                            <th class="text-center">ID/名称</th>
+                            <th class="text-center">用户名</th>
+                            <th class="text-center">类型</th>
 
-
-
-                            <th>编号</th>
-
-                            <th>分类昵称</th>
-
-                            <th>分类字段</th>
-
-                            <th>是否显示</th>
-
-                            <th>操作</th>
-
+                            <th class="text-center">操作描述</th>
+                            <th class="text-center">操作时间</th>
                         </tr>
-
                         </thead>
 
                         <tbody class="">
-
                         <?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-
                         <tr>
-
                             <td class="text-center">
-
-                                <?php echo $vo['id']; ?>
-
+                                <?php echo $vo['log_id']; ?>
+                            </td>
+                            <td class="text-center">
+                                <?php echo $vo['uid']; ?>
+                            </td>
+                            <td class="text-center">
+                                <?php echo $vo['phone']; ?>
+                            </td>
+                            <td class="text-center">
+                                <?php echo $vo['action_type']; ?>
                             </td>
 
                             <td class="text-center">
-
-                                <a href="<?php echo url('sonConfigTab',array('tab_id'=>$vo['id'])); ?>" style="cursor: pointer"><?php echo $vo['title']; ?></a>
-
+                                <?php echo $vo['desc']; ?>
                             </td>
-
                             <td class="text-center">
-
-                                <?php echo $vo['eng_title']; ?>
-
+                                <?php echo date("Y-m-d H:i:s",$vo['change_time']); ?>
                             </td>
-
-                            <td class="text-center">
-
-                                <?php if($vo['status'] == 1): ?>
-                                <i class="fa fa-check text-navy"></i>
-                                <?php elseif($vo['status'] == 2): ?>
-                                <i class="fa fa-close text-danger"></i>
-                                <?php endif; ?>
-
-                            </td>
-
-                            <td class="text-center">
-
-                                <button class="btn btn-info btn-xs" type="button"  onclick="$eb.createModalFrame('编辑','<?php echo Url('edit',array('id'=>$vo['id'])); ?>')"><i class="fa fa-paste"></i> 编辑</button>
-
-                                <?php if($vo['id'] > 2): ?>
-                                <button class="btn btn-warning btn-xs del_config_tab" data-id="<?php echo $vo['id']; ?>" type="button" data-url="<?php echo Url('delete',array('id'=>$vo['id'])); ?>" ><i class="fa fa-warning"></i> 删除
-
-                                </button>
-                                <?php endif; ?>
-
-                            </td>
-
                         </tr>
-
                         <?php endforeach; endif; else: echo "" ;endif; ?>
-
                         </tbody>
-
                     </table>
-
                 </div>
-
                 <link href="/public/system/frame/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
 <div class="row">
     <div class="col-sm-6">
@@ -204,73 +146,50 @@
     </div>
     <div class="col-sm-6">
         <div class="dataTables_paginate paging_simple_numbers" id="editable_paginate">
-            <?php echo $page; ?>
+        <?php echo $list->render(); ?>
         </div>
     </div>
 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 
 
 
 <script>
-
-    $('.add-filed').on('click',function (e) {
-        $eb.createModalFrame(this.innerText,"<?php echo Url('create'); ?>");
-    })
-    $('.del_config_tab').on('click',function(){
-
-        var _this = $(this),url =_this.data('url');
-
-        $eb.$swal('delete',function(){
-
-            $eb.axios.get(url).then(function(res){
-
-                if(res.status == 200 && res.data.code == 200) {
-
-                    $eb.$swal('success',res.data.msg);
-
-                    _this.parents('tr').remove();
-
-                }else
-
-                    return Promise.reject(res.data.msg || '删除失败')
-
-            }).catch(function(err){
-
-                $eb.$swal('error',err);
-
-            });
-
-        })
-
+    var dateInput =$('.datepicker');
+    dateInput.daterangepicker({
+        autoUpdateInput: false,
+        "opens": "center",
+        "drops": "down",
+        "ranges": {
+            '今天': [moment(), moment().add(1, 'days')],
+            '昨天': [moment().subtract(1, 'days'), moment()],
+            '上周': [moment().subtract(6, 'days'), moment()],
+            '前30天': [moment().subtract(29, 'days'), moment()],
+            '本月': [moment().startOf('month'), moment().endOf('month')],
+            '上月': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        "locale" : {
+            applyLabel : '确定',
+            cancelLabel : '清空',
+            fromLabel : '起始时间',
+            toLabel : '结束时间',
+            format : 'YYYY/MM/DD',
+            customRangeLabel : '自定义',
+            daysOfWeek : [ '日', '一', '二', '三', '四', '五', '六' ],
+            monthNames : [ '一月', '二月', '三月', '四月', '五月', '六月',
+                '七月', '八月', '九月', '十月', '十一月', '十二月' ],
+            firstDay : 1
+        }
     });
-    $('.add_filed_base').on('click',function (e) {
-        $eb.swal({
-            title: '请选择数据类型',
-            input: 'radio',
-            inputOptions: ['文本框','多行文本框','单选框','文件上传','多选框'],
-            inputValidator: function(result) {
-                return new Promise(function(resolve, reject) {
-                    if (result) {
-                        resolve();
-                    } else {
-                        reject('请选择数据类型');
-                    }
-                });
-            }
-        }).then(function(result) {
-            if (result) {
-                $eb.createModalFrame(this.innerText,"<?php echo Url('setting.systemConfig/create'); ?>?type="+result);
-            }
-        })
-    })
+    dateInput.on('cancel.daterangepicker', function(ev, picker) {
+        $("#data").val('');
+    });
+    dateInput.on('apply.daterangepicker', function(ev, picker) {
+        $("#data").val(picker.startDate.format('YYYY/MM/DD') + ' - ' + picker.endDate.format('YYYY/MM/DD'));
+    });
 </script>
 
 

@@ -722,6 +722,7 @@
                 'userinfo'=>UserModel::getUserDetailed($uid),
                 'is_layui'=>true,
                 'headerList'=>UserModel::getHeaderList($uid),
+                'downList'=>UserModel::getDownList($uid),
                 'count'=>UserModel::getCountInfo($uid),
             ]);
             return $this->fetch();
