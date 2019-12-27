@@ -43,7 +43,7 @@
                     <ul class="layui-row layui-col-space10 layui-this">
                         {volist name='userinfo' id='vo'}
                             {if trim($vo.value)}
-                            <li class="layui-col-xs<?=isset($vo['col']) ? $vo['col'] :4?>">
+                            <li class="layui-col-xs<?=isset($vo['col']) ? $vo['col'] : 4?>">
                                 <div class="backlog-body">
                                     <h3>{$vo.name}</h3>
                                     <p><cite {if isset($vo['color'])} style="color: {$vo['color']}" {/if}>{$vo.value}</cite></p>
@@ -89,7 +89,7 @@
                     </div>
                     {/volist}
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -101,7 +101,10 @@
                         <ul class="layui-tab-title">
                             <li class="layui-this">线上订单</li>
                             <li>积分明细</li>
-                            <li>商家订单</li>
+                            <li>用户账单</li>
+                            <li>用户收藏店铺</li>
+                            <li>用户收藏活动</li>
+                            <li>用户卡包</li>
                             <li>签到记录</li>
                             <li>持有优惠劵</li>
                             <li>余额变动记录</li>
@@ -142,8 +145,10 @@
                                         </tr>
                                     </tbody>
                                 </table>
+
                                 <div ref="page_order" v-show="count.order_count > limit" style="text-align: right;"></div>
                             </div>
+
                             <div class="layui-tab-item">
                                 <table class="layui-table" lay-skin="line" v-cloak="">
                                     <thead>
@@ -174,27 +179,116 @@
                                 <table class="layui-table" lay-skin="line" v-cloak="">
                                     <thead>
                                     <tr>
-                                        <th>来源/用途</th>
-                                        <th>积分变化</th>
-                                        <th>变化后积分</th>
-                                        <th>日期</th>
-                                        <th>备注</th>
+                                        <th>账单编号</th>
+                                        <th>账单总金额</th>
+                                        <th>积分抵扣金额</th>
+                                        <th>实付金额</th>
+                                        <th>积分</th>
+                                        <th>描述</th>
+                                        <th>交易时间</th>
                                     </tr>
                                     </thead>
                                     <tbody>
-                                        <tr v-for="item in integralList">
-                                            <td>{{item.title}}</td>
-                                            <td>{{item.number}}</td>
-                                            <td>{{item.balance}}</td>
-                                            <td>{{item.add_time}}</td>
-                                            <td>{{item.mark}}</td>
+                                        <tr v-for="item in businessList">
+                                            <td>{{item.order_id}}</td>
+                                            <td>{{item.user_money}}</td>
+                                            <td>{{item.dikou_money}}</td>
+                                            <td>{{item.frozen_money}}</td>
+                                            <td>{{item.pay_points}}</td>
+                                            <td>{{item.desc}}</td>
+                                            <td>{{item.change_time}}</td>
                                         </tr>
-                                        <tr v-show="integralList.length<=0" style="text-align: center">
-                                            <td colspan="5">暂无数据</td>
+                                        <tr v-show="businessList.length<=0" style="text-align: center">
+                                            <td colspan="7">暂无数据</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div ref="integral_page" v-show="count.integral_count > limit" style="text-align: right;"></div>
+
+                                <div ref="business_page" v-show="count.business_count > limit" style="text-align: right;"></div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <table class="layui-table" lay-skin="line" v-cloak="">
+                                    <thead>
+                                    <tr>
+                                        <th>商家id</th>
+                                        <th>商家名称</th>
+                                        <th>商家地址</th>
+                                        <th>商家logo</th>
+                                        <th>商家类目</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="item in saveshopList">
+                                            <td>{{item.uid}}</td>
+                                            <td>{{item.name}}</td>
+                                            <td>{{item.xiangxi}}</td>
+                                            <td>{{item.logo}}</td>
+                                            <td>{{item.lev_id}}</td>
+                                        </tr>
+                                        <tr v-show="saveshopList.length<=0" style="text-align: center">
+                                            <td colspan="7">暂无数据</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div ref="saveshop_page" v-show="count.saveshop_count > limit" style="text-align: right;"></div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <table class="layui-table" lay-skin="line" v-cloak="">
+                                    <thead>
+                                    <tr>
+                                        <th>活动id</th>
+                                        <th>活动标题</th>
+                                        <th>活动细则</th>
+                                        <th>开始时间</th>
+                                        <th>结束时间</th>
+                                        <th>活动状态</th>
+                                        <th>参与人数</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="item in saveactList">
+                                            <td>{{item.active_id}}</td>
+                                            <td>{{item.title}}</td>
+                                            <td>{{item.desc}}</td>
+                                            <td>{{item.lasttime}}</td>
+                                            <td>{{item.endtime}}</td>
+                                            <td>{{item.status}}</td>
+                                            <td>{{item.count}}</td>
+                                        </tr>
+                                        <tr v-show="saveactList.length<=0" style="text-align: center">
+                                            <td colspan="7">暂无数据</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div ref="saveact_page" v-show="count.saveact_count > limit" style="text-align: right;"></div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <table class="layui-table" lay-skin="line" v-cloak="">
+                                    <thead>
+                                    <tr>
+                                        <th>卡号</th>
+                                        <th>所属银行</th>
+                                        <th>类目</th>
+                                        <th>添加时间</th>
+                                        <th>是否成功绑定</th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="item in cardList">
+                                            <td>{{item.card}}</td>
+                                            <td>{{item.yinhang}}</td>
+                                            <td>{{item.leimu}}</td>
+                                            <td>{{item.addtime}}</td>
+                                            <td>{{item.status}}</td>
+
+                                        </tr>
+                                        <tr v-show="cardList.length<=0" style="text-align: center">
+                                            <td colspan="7">暂无数据</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div ref="card_page" v-show="count.card_count > limit" style="text-align: right;"></div>
                             </div>
                             <div class="layui-tab-item">
                                 <table class="layui-table" lay-skin="line" v-cloak="">
@@ -332,18 +426,28 @@
                 uid:$uid,
                 orderList:[],
                 integralList:[],
+                businessList:[],
+                saveshopList:[],
+                saveactList:[],
+                cardList:[],
                 SignList:[],
                 CouponsList:[],
                 balanceChangList:[],
                 SpreadList:[],
+
                 count:count,
                 page:{
                     order_page:1,
                     integral_page:1,
+                    business_page:1,
+                    saveshop_page:1,
+                    saveact_page:1,
+                    card_page:1,
                     sign_page:1,
                     copons_page:1,
                     balancechang_page:1,
                     spread_page:1,
+
                 },
             },
             watch:{
@@ -352,6 +456,18 @@
                 },
                 'page.integral_page':function () {
                     this.getOneIntegralList();
+                },
+                'page.business_page':function () {
+                    this.getOneBusinessList();
+                },
+                'page.saveshop_page':function () {
+                    this.getOneSaveshopList();
+                },
+                'page.saveact_page':function () {
+                    this.getOneSaveactList();
+                },
+                'page.card_page':function () {
+                    this.getOneCardList();
                 },
                 'page.sign_page':function () {
                     this.getOneSignList();
@@ -364,18 +480,33 @@
                 },
                 'page.spread_page':function () {
                     this.getSpreadList();
-                }
+                },
+
             },
             methods:{
                 getSpreadList:function(){
                     this.request('getSpreadList',this.page.spread_page,'SpreadList');
                 },
+
                 getOneorderList:function () {
                     this.request('getOneorderList',this.page.order_page,'orderList');
                 },
                 getOneIntegralList:function () {
                     this.request('getOneIntegralList',this.page.integral_page,'integralList');
                 },
+                getOneBusinessList:function(){
+                    this.request('getOneBusinessList',this.page.business_page,'businessList');
+                },
+                getOneSaveshopList:function(){
+                    this.request('getOneSaveshopList',this.page.saveshop_page,'saveshopList');
+                },
+                getOneSaveactList:function(){
+                    this.request('getOneSaveactList',this.page.saveact_page,'saveactList');
+                },
+                getOneCardList:function(){
+                    this.request('getOneCardList',this.page.card_page,'cardList');
+                },
+
                 getOneSignList:function () {
                     this.request('getOneSignList',this.page.sign_page,'SignList');
                 },
@@ -394,7 +525,12 @@
             },
             mounted:function () {
                 this.getOneorderList();
+
                 this.getOneIntegralList();
+                this.getOneBusinessList();
+                this.getOneSaveshopList();
+                this.getOneSaveactList();
+                this.getOneCardList();
                 this.getOneSignList();
                 this.getOneCouponsList();
                 this.getOneBalanceChangList();
@@ -409,6 +545,7 @@
                         that.page.order_page=obj.curr;
                     }
                 });
+
                 layList.laypage.render({
                     elem: that.$refs.integral_page
                     ,count:that.count.integral_count
@@ -416,6 +553,42 @@
                     ,theme: '#1E9FFF',
                     jump:function(obj){
                         that.page.integral_page=obj.curr;
+                    }
+                });
+                layList.laypage.render({
+                    elem: that.$refs.business_page
+                    ,count:that.count.business_count
+                    ,limit:that.limit
+                    ,theme: '#1E9FFF',
+                    jump:function(obj){
+                        that.page.business_page=obj.curr;
+                    }
+                });
+                layList.laypage.render({
+                    elem: that.$refs.saveshop_page
+                    ,count:that.count.saveshop_count
+                    ,limit:that.limit
+                    ,theme: '#1E9FFF',
+                    jump:function(obj){
+                        that.page.saveshop_page=obj.curr;
+                    }
+                });
+                layList.laypage.render({
+                    elem: that.$refs.saveact_page
+                    ,count:that.count.saveact_count
+                    ,limit:that.limit
+                    ,theme: '#1E9FFF',
+                    jump:function(obj){
+                        that.page.saveact_page=obj.curr;
+                    }
+                });
+                layList.laypage.render({
+                    elem: that.$refs.card_page
+                    ,count:that.count.card_count
+                    ,limit:that.limit
+                    ,theme: '#1E9FFF',
+                    jump:function(obj){
+                        that.page.card_page=obj.curr;
                     }
                 });
                 layList.laypage.render({

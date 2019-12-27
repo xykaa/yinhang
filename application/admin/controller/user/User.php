@@ -725,6 +725,7 @@
                 'downList'=>UserModel::getDownList($uid),
                 'count'=>UserModel::getCountInfo($uid),
             ]);
+      
             return $this->fetch();
         }
         /*
@@ -743,7 +744,69 @@
          * 获取某用户的积分列表
          */
         public function getOneIntegralList($uid,$page=1,$limit=20){
+            
             return Json::successful(UserBillAdmin::getOneIntegralList(compact('uid','page','limit')));
+        }
+        /**
+         * 获取某用户的线下账单列表
+         */
+        public function getOneBusinessList($uid,$page=2,$limit=20){
+            $userBusinessList = Db::name('user_detail_log')->where(['uid'=>$uid])
+            ->order('change_time desc')
+            ->page(1,20)
+            ->field(['order_id','user_money','dikou_money','frozen_money','pay_points',
+                'FROM_UNIXTIME(change_time,"%Y-%m-%d% %h:%i:%s") as change_time','desc','type'
+            ])->select();
+            // dump($userBusinessList);die;
+            return Json::successful($userBusinessList);
+        }
+         /**
+         * 获取某用户的收藏商家列表
+         */
+        public function getOneSaveshopList($uid,$page=2,$limit=20){
+            $userShopList = Db::name('collection_shop')
+            // ->where(['uid'=>$uid])
+            ->alias('a')
+            ->join('user_des b','a.shop_id = b.uid')
+            ->order('time desc')
+            ->page(1,20)
+            ->field('a.*,b.*')
+            ->where(['a.user_id'=>$uid])
+            ->select();
+            $userActList = Db::name('user_activities')->where(['uid'=>$uid]);
+            // dump($userShopList);die;
+            return Json::successful($userShopList);
+        }
+        /**
+         * 获取某用户的收藏活动列表
+         */
+        public function getOneSaveactList($uid,$page=2,$limit=20){
+            $userActList = Db::name('user_activities')
+            // ->where(['uid'=>$uid])
+            ->alias('a')
+            ->join('shop_activity b','a.active_id = b.id')
+            ->join('user_des c','b.shop_id = c.uid')
+            ->order('time desc')
+            ->page(1,20)
+            ->field('a.*,b.*,c.name')
+            ->where(['a.user_id'=>$uid])
+            ->select();
+            
+            // dump($userActList);die;
+            return Json::successful($userActList);
+        }
+        /**
+         * 获取某用户的卡包列表
+         */
+        public function getOneCardList($uid,$page=2,$limit=20){
+            $userCardList = Db::name('user_bank')->where(['user_id'=>$uid])
+            ->order('addtime desc')
+            ->page(1,20)
+            ->field(['card','status','yinhang','leimu',
+                'FROM_UNIXTIME(addtime,"%Y-%m-%d% %h:%i:%s") as addtime',
+            ])->select();
+            // dump($userCardList);die;
+            return Json::successful($userCardList);
         }
         /**
          * 获取某用户的积分列表
